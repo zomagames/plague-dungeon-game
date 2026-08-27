@@ -1,0 +1,29 @@
+# Godot 4+ specific ignores
+.godot/
+import/
+export_presets.cfg
+
+# Godot-specific ignores
+.import/
+*.translation
+*.pot
+*.mo
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+builds/
+dist/
+*.exe
+*.apk
+*.pck
+
+# OS files
+.directory
